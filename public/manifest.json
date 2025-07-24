@@ -1,10 +1,14 @@
 {
-  "lang": "en",
+  "lang": "es",
   "dir": "ltr",
-  "name": "blackspike astro landing page",
-  "description": "A free Astro landing theme made with Tailwind to help kick start your Astro website.",
-  "short_name": "blackspike astro theme",
-  "theme_color": "#18181B",
+  "name": "DxiCode",
+  "short_name": "DxiCode",
+  "description": "Soluciones digitales a la medida: desarrollo de software, páginas web y hosting profesional.",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/192.png",
@@ -12,21 +16,9 @@
       "type": "image/png"
     },
     {
-      "src": "/192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
       "src": "/512.png",
       "sizes": "512x512",
       "type": "image/png"
-    },
-    {
-      "src": "/512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ]
 }
