@@ -1,0 +1,22 @@
+[
+  {
+    "question": "¿Puedo usar mi propio dominio?",
+    "answer": "¡Claro! Te ayudamos a apuntar tu dominio existente a nuestros servidores o, si lo prefieres, podemos gestionarlo y renovarlo por ti desde DxiCode."
+  },
+  {
+    "question": "¿Qué incluye el soporte técnico mensual?",
+    "answer": "Nuestro plan de soporte incluye mantenimiento preventivo, actualizaciones de seguridad, resolución de incidencias por WhatsApp o correo y hasta 2 horas de ajustes o nuevas funcionalidades ligeras."
+  },
+  {
+    "question": "¿Cómo funcionan los backups de mi aplicación?",
+    "answer": "Realizamos copias de seguridad diarias automáticas con retención de hasta 14 días. En caso de fallo, podemos restaurar tu aplicación o base de datos al estado deseado en minutos."
+  },
+  {
+    "question": "¿Puedo escalar recursos si mi negocio crece?",
+    "answer": "Sí. Todos nuestros planes son flexibles: puedes aumentar CPU, RAM o espacio de almacenamiento de forma instantánea y pagar sólo por lo que necesites."
+  },
+  {
+    "question": "¿Hay contrato mínimo o penalización por cancelar?",
+    "answer": "No. Nuestros planes son mensuales y sin ataduras: si dejas de necesitar el servicio, puedes cancelar en cualquier momento sin cargos adicionales."
+  }
+]

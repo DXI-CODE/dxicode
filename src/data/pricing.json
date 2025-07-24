@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Plan Básico",
+    "tag": "El más contratado",
+    "content": "Sistema a la medida + hosting y soporte",
+    "cta": "Solicitar demo",
+    "price": 399,
+    "services": [
+      { "item": "Hosting administrado (1 app)" },
+      { "item": "Actualizaciones y mantenimiento" },
+      { "item": "Soporte por WhatsApp" },
+      { "item": "Panel personalizado incluido" },
+      { "item": "Pago mensual, sin contrato forzoso" }
+    ]
+  },
+  {
+    "title": "Plan Empresarial",
+    "tag": "Mejor valor",
+    "content": "Soluciones avanzadas para negocios en crecimiento",
+    "cta": "Contáctanos",
+    "price": 1499,
+    "services": [
+      { "item": "Todo lo del Plan Básico" },
+      { "item": "Hasta 3 apps alojadas" },
+      { "item": "Funcionalidades personalizadas" },
+      { "item": "Reportes avanzados y backups diarios" },
+      { "item": "Atención prioritaria y soporte extendido" }
+    ]
+  }
+]

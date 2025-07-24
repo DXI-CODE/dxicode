@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Desarrollo web a la medida",
+    "content": "<strong>Creamos sistemas adaptados 100% a tu negocio.</strong> Desde paneles administrativos hasta agendas de citas o reportes, diseñamos soluciones prácticas y fáciles de usar.",
+    "cta": "Solicita una demo",
+    "image": "/content-images/servicio-desarrollo.jpg",
+    "image_alt": "Ilustración de panel administrativo personalizado"
+  },
+  {
+    "title": "Hosting administrado",
+    "content": "<strong>Olvídate de configuraciones y servidores lentos.</strong> Aloja tus apps en nuestros servidores optimizados y con monitoreo constante para asegurar disponibilidad y rendimiento.",
+    "cta": "Ver planes de hosting",
+    "image": "/content-images/servicio-hosting.jpg",
+    "image_alt": "Servidor moderno con conexión en la nube"
+  },
+  {
+    "title": "Soporte técnico personalizado",
+    "content": "<strong>Estamos contigo después del desarrollo.</strong> Incluimos mantenimiento mensual, actualizaciones y soporte por WhatsApp para que nunca te quedes sin respuesta.",
+    "cta": "Contáctanos para soporte",
+    "image": "/content-images/servicio-soporte.jpg",
+    "image_alt": "Equipo de soporte atendiendo mensajes"
+  },
+  {
+    "title": "Sistemas para negocios locales",
+    "content": "<strong>Ya trabajamos con reposterías, estéticas, tiendas y más.</strong> Digitaliza tu operación con soluciones reales y sin pagar licencias exageradas.",
+    "cta": "Ver casos reales",
+    "image": "/content-images/servicio-negocios.jpg",
+    "image_alt": "Negocio local usando sistema en tablet"
+  }
+]

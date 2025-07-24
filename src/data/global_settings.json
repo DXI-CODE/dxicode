@@ -1,0 +1,56 @@
+{
+  "title": "DxiCode · Desarrollo Web y Hosting",
+  "description": "Software a la medida, hosting confiable y soporte técnico para negocios modernos. Desarrollamos soluciones reales para pequeñas y medianas empresas.",
+  "social_image": "/images/social-dxicode.jpg",
+  "base_url": "https://dxicode.com",
+  "demo": {
+    "title": "¿Necesitas un sistema para tu negocio?",
+    "content": "<strong>Te mostramos cómo funciona uno de nuestros sistemas</strong> y cómo podemos ayudarte a digitalizar tu operación sin complicaciones.",
+    "cta": "Solicita una demo"
+  },
+  "theme_color": "#0f172a",
+  "nav": [
+    {
+      "title": "Inicio",
+      "link": "/"
+    },
+    {
+      "title": "Servicios",
+      "link": "/#services"
+    },
+    {
+      "title": "Proyectos",
+      "link": "/#case-studies"
+    },
+    {
+      "title": "Precios",
+      "link": "/#pricing"
+    },
+    {
+      "title": "FAQs",
+      "link": "/#faq"
+    },
+    {
+      "title": "Contacto",
+      "link": "/#contact"
+    }
+  ],
+  "social_links": [
+    {
+      "title": "WhatsApp",
+      "link": "https://wa.me/9717296178"
+    },
+    {
+      "title": "GitHub",
+      "link": "https://github.com/DXI-CODE"
+    },
+    {
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/company/dxicode"
+    },
+    {
+      "title": "Facebook",
+      "link": "https://www.facebook.com/profile.php?id=61563324939010"
+    }
+  ]
+}
