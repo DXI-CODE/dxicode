@@ -4,7 +4,7 @@
     "tag": "El más contratado",
     "content": "Sistema a la medida + hosting y soporte",
     "cta": "Solicitar demo",
-    "price": 399,
+    "price": "399 MXN",
     "services": [
       { "item": "Hosting administrado (1 app)" },
       { "item": "Actualizaciones y mantenimiento" },
@@ -18,7 +18,7 @@
     "tag": "Mejor valor",
     "content": "Soluciones avanzadas para negocios en crecimiento",
     "cta": "Contáctanos",
-    "price": 1499,
+    "price": "1499 MXN",
     "services": [
       { "item": "Todo lo del Plan Básico" },
       { "item": "Hasta 3 apps alojadas" },
