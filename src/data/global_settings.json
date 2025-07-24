@@ -10,18 +10,12 @@
   },
   "theme_color": "#0f172a",
   "nav": [
-    {
-      "title": "Inicio",
-      "link": "/"
-    },
+    
     {
       "title": "Servicios",
       "link": "/#services"
     },
-    {
-      "title": "Proyectos",
-      "link": "/#case-studies"
-    },
+    
     {
       "title": "Precios",
       "link": "/#pricing"
