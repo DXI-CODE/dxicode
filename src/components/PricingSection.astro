@@ -1,89 +1,70 @@
 ---
-
 import Check from '../assets/theme-images/icon-check.svg'
 import Cube from '../assets/theme-images/icon-cube.svg'
 import CubeOutline from '../assets/theme-images/icon-cube-outline.svg'
 
 const { title, pricing } = Astro.props
-
 ---
 
 <section class="bs-container bs-mt-lg" id="pricing">
-
+  
   <!-- Header -->
-  { title && <h2 class="bs-h2 text-center">{ title }</h2>}
+  { title && <h2 class="bs-h2 text-center mb-10">{ title }</h2> }
 
-  <!-- pricing -->
-  <div class="mt-8 grid lg:grid-cols-2 gap-8 lg:gap-0">
+  <!-- Pricing Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-    <!-- Item -->
-
-    { pricing.map( ( item, index ) =>
-
-    <article
-      class:list={['@container p-6 xl:p-16 flex flex-col gap-6 h-full w-full rounded-xl overflow-hidden lg:scale-90 @xl:justify-end', index === 1 ? 'bg-white/90 text-black/90 lg:scale-none' : 'bg-bs-surface-0/90']}>
-
-      <!-- Content -->
-      <div class="relative">
-
-        <!-- Title -->
-        <h2 class="bs-h3 flex gap-3 items-center">
-
-          <!-- Icon -->
-          { index === 1 && <Cube height="32" width="32" />  }
-          { index !== 1 && <CubeOutline height="32" width="32" />  }
-
+    { pricing.map((item, index) => (
+      <article
+        class:list={[
+          'p-6 xl:p-10 flex flex-col gap-6 h-full w-full rounded-2xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 bg-bs-surface-0/90',
+          index === 1 ? 'bg-white text-black border border-yellow-400 shadow-lg scale-105 z-10' : ''
+        ]}
+      >
+        <!-- Content -->
+        <div class="relative flex flex-col flex-grow">
+          
           <!-- Title -->
-          <span>{ item.title }</span>
+          <h3 class="bs-h3 flex items-center gap-3">
+            { index === 1 ? <Cube height="32" width="32" /> : <CubeOutline height="32" width="32" /> }
+            <span>{ item.title }</span>
 
-          <!-- Tag -->
-          <div
-            class="text-xs uppercase tracking-widest font-semibold hidden sm:block ms-auto rounded-full px-4 py-2 pb-[0.4rem] border border-bs-foreground-dark/30"
-            set:html={ item.tag } />
+            <!-- Tag -->
+            <span class="ml-auto text-xs uppercase tracking-widest font-semibold rounded-full px-4 py-1 border border-bs-foreground-dark/30 bg-white/20 backdrop-blur-sm">
+              { item.tag }
+            </span>
+          </h3>
 
-        </h2>
+          <!-- Intro -->
+          <p class="text-lg mt-3 leading-relaxed">{ item.content }</p>
 
-        <!-- Intro -->
-        <div class="text-xl flex-grow mt-4 " set:html={ item.content } />
+          <!-- Services list -->
+          <ul role="list" class="flex flex-col gap-3 my-6">
+            { item.services.map(({ item: service }) => (
+              <li class="flex items-center gap-3">
+                <Check height="24" width="24" class="text-green-500" />
+                <span class="text-base">{ service }</span>
+              </li>
+            ))}
+          </ul>
 
-        <!-- Services list -->
-        <ul role="list" class="flex flex-col gap-4 my-8">
+          <!-- Footer (Price + CTA) -->
+          <footer class="mt-auto flex justify-between items-center gap-2">
+            <span class="text-4xl font-bold">${ item.price }
+              <span class="text-base opacity-70">/mes</span>
+            </span>
 
-          { item.services.map( ({ item }) =>
+            <button 
+              type="button" 
+              aria-label={`Solicitar ${item.title}`} 
+              class="bs-btn bg-yellow-400 text-black font-semibold px-5 py-2 rounded-full hover:bg-yellow-500 transition">
+              { item.cta }
+            </button>
+          </footer>
 
-            <li class="flex gap-2 md:gap-3 items-center">
-
-              <!-- Check -->
-              <Check height="24" width="24" />
-
-              <!-- Item -->
-              <span class="text-xl">{ item }</span>
-
-            </li>
-
-          )}
-
-        </ul>
-
-        <!-- CTA -->
-        <footer class="flex justify-between items-center gap-2">
-
-          <!-- Price -->
-          <span class="text-4xl lg:text-5xl">${ item.price }<span class="text-2xl hidden @md:inline-block -translate-y-1 ms-2"> / month</span></span>
-
-          <!-- CTA button -->
-          <button type="button" class="bs-btn inline-block self-start @4xl:mt-12 text-xl" onclick="demo.showModal()">
-            { item.cta }
-          </button>
-
-        </footer>
-
-      </div>
-
-    </article>
-    )}
+        </div>
+      </article>
+    ))}
 
   </div>
-
 </section>
-
