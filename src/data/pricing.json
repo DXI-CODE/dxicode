@@ -1,30 +1,45 @@
 [
   {
     "title": "Plan Básico",
-    "tag": "El más contratado",
-    "content": "Sistema a la medida + hosting y soporte",
+    "tag": "Ideal para comenzar",
+    "content": "Incluye el sistema a la medida, hosting confiable y soporte básico.",
     "cta": "Solicitar demo",
-    "price": "399 MXN",
+    "price": "299 MXN",
     "services": [
-      { "item": "Hosting administrado (1 app)" },
-      { "item": "Actualizaciones y mantenimiento" },
-      { "item": "Soporte por WhatsApp" },
-      { "item": "Panel personalizado incluido" },
+      { "item": "Hosting administrado para 1 aplicación" },
+      { "item": "Disponibilidad garantizada 24/7" },
+      { "item": "Soporte técnico por WhatsApp (horario laboral)" },
+      { "item": "1 respaldo automático mensual" },
+      { "item": "Actualizaciones de seguridad incluidas" },
       { "item": "Pago mensual, sin contrato forzoso" }
     ]
   },
   {
-    "title": "Plan Empresarial",
-    "tag": "Mejor valor",
-    "content": "Soluciones avanzadas para negocios en crecimiento",
+    "title": "Plan Estándar",
+    "tag": "El más contratado",
+    "content": "Perfecto para negocios que requieren mayor seguridad y soporte rápido.",
     "cta": "Contáctanos",
-    "price": "1499 MXN",
+    "price": "449 MXN",
     "services": [
       { "item": "Todo lo del Plan Básico" },
-      { "item": "Hasta 3 apps alojadas" },
-      { "item": "Funcionalidades personalizadas" },
-      { "item": "Reportes avanzados y backups diarios" },
-      { "item": "Atención prioritaria y soporte extendido" }
+      { "item": "Hasta 3 respaldos automáticos al mes" },
+      { "item": "Certificado SSL (HTTPS) incluido" },
+      { "item": "Soporte prioritario (respuesta más rápida)" },
+      { "item": "Monitoreo básico de disponibilidad" }
+    ]
+  },
+  {
+    "title": "Plan Avanzado",
+    "tag": "Máxima protección y rendimiento",
+    "content": "Para negocios que no pueden permitirse fallas: máxima seguridad, optimización y monitoreo continuo.",
+    "cta": "Contáctanos",
+    "price": "649 MXN",
+    "services": [
+      { "item": "Todo lo del Plan Estándar" },
+      { "item": "Monitoreo avanzado 24/7" },
+      { "item": "Optimización periódica del sistema" },
+      { "item": "Asesoría técnica personalizada" },
+      { "item": "Respaldo semanal adicional (4 por mes)" }
     ]
   }
 ]
